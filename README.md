@@ -1,2 +1,4 @@
 # AutomatedTicket_Classification_System
-Repository for final version of an automated ticket classification system using NLP. Classifies tickets into categories for efficient issue management.
+This repository features an automated ticket classification system designed to categorize customer complaints by product or service, with the goal of accelerating resolution times. The system processes and analyzes text data using techniques such as POS tagging, lemmatization, and feature extraction. It implements and compares several classification models, including Logistic Regression, Decision Tree, Random Forest, and Naive Bayes, to determine the most effective approach for categorizing tickets.
+
+Additionally, Non-Negative Matrix Factorization (NMF) was utilized for topic modeling on unlabeled JSON data, allowing the system to classify tickets into five distinct categories: Credit Card/Prepaid Card, Bank Account Services, Theft/Dispute Reporting, Mortgages/Loans, and Others. This approach significantly enhances ticket handling efficiency and improves customer satisfaction by creating a scalable and adaptable classification system.
